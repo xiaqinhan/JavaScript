@@ -1,1 +1,1 @@
-# JavaScript
+This repository purpose is that practice my skills with JavaScript from website https://www.w3schools.com/js/default.asp
