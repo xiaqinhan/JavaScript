@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="3">
+</head> 
+<body>
+    <h2>JavaScript Arrays</h2>
+    <p>Array.forEach() calls a function for each array element.</p>
+    <p>Array.forEach() is not supported in Internet Explorer 8 or earlier.</p>
+    <p id="demo"></p>
+    <script>
+        var fruits, text;
+        fruits = ["banana","orange","apple","mango"];
+        text = "<ul>";
+        fruits.forEach(myfunction);
+        text += "</ul>";
+        document.getElementById("demo").innerHTML = text;
+        function myfunction(value) {
+            text += "<li>" + value +"</li>"
+        }
+    </script>
+</body>
+</html>
+<!--
+    
+-->
